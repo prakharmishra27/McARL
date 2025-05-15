@@ -1,101 +1,106 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> McARL: Morphology-Control-Aware Reinforcement Learning </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>McARL: Morphology-Control-Aware Reinforcement Learning</title>
 
-    <style>
-        /* Set full-page background image */
-        body {
-            background-image: url('McARL.png'); /* */
-            background-size: cover;
-            background-position: center;
-            color: white; /* Text color for contrast */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
+  <style>
+    body {
+      background-image: url('McARL_go1.png'); /* a clean robot image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
 
-        /* Centered container for content */
-        .container {
-            background: rgba(0, 0, 0, 0.7); /* Dark overlay */
-            padding: 30px;
-            border-radius: 10px;
-            width: 80%;
-            margin: 50px auto;
-        }
+    .container {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+      width: 80%;
+      margin: 50px auto;
+    }
 
-        h1, h2 {
-            color: #ffcc00; /* Gold color for headers */
-        }
+    h1, h2 {
+      color: #ffcc00;
+    }
 
-        a {
-            color: #66c2ff; /* Light blue for links */
-            text-decoration: none;
-            font-weight: bold;
-        }
+    a {
+      color: #66c2ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        a:hover {
-            color: #ff6666; /* Red hover effect */
-        }
+    a:hover {
+      color: #ff6666;
+    }
 
-        /* Styling for authors section */
-        .authors {
-            font-size: 18px;
-            margin-top: 10px;
-        }
+    .authors {
+      font-size: 18px;
+      margin-top: 10px;
+    }
 
-        .authors a {
-            color: #ffcc00; /* Gold color */
-        }
+    .authors a {
+      color: #ffcc00;
+    }
 
-        /* Video embedding */
-        .video-container {
-            margin: 20px 0;
-        }
+    .video-container {
+      margin: 20px 0;
+    }
 
-        /* Footer */
-        .footer {
-            margin-top: 20px;
-            font-size: 14px;
-        }
-    </style>
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .arch-img {
+      max-width: 90%;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+  </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>McARL: Morphology-Control-Aware Reinforcement Learning</h1>
+  <div class="container">
+    <h1>McARL: Morphology-Control-Aware Reinforcement Learning</h1>
 
-        <h2>👥 Authors</h2>
-        <p class="authors">
-            <a href="https://github.com/prakharmishra27" target="_blank">Prakhar Mishra</a>, 
-            <a href="https://amirraj.com/" target="_blank">Amir Hossain Raj</a>, 
-            <a href="https://cs.gmu.edu/~xiao/" target="_blank">Xuesu Xiao</a>
-            <a href="https://www.cs.umd.edu/people/dmanocha" target="_blank">Dinesh Manocha</a>
-        </p>
+    <h2>👥 Authors</h2>
+    <p class="authors">
+      <a href="https://github.com/prakharmishra27" target="_blank">Prakhar Mishra</a>, 
+      <a href="https://amirraj.com/" target="_blank">Amir Hossain Raj</a>, 
+      <a href="https://cs.gmu.edu/~xiao/" target="_blank">Xuesu Xiao</a>, 
+      <a href="https://www.cs.umd.edu/people/dmanocha" target="_blank">Dinesh Manocha</a>
+    </p>
 
-        <h2>📹 Videos</h2>
-        <p> <strong>May 8 Submission Video</strong>: 
-            <a href="https://youtu.be/ilFuWQvtxNI" target="_blank">[Watch Here]</a>
-        </p>
+    <h2>Videos</h2>
+    <p><strong>May 8 Submission Video:</strong> <a href="https://youtu.be/ilFuWQvtxNI" target="_blank">[Watch Here]</a></p>
+    <p><strong>Additional Results - Coming Soon...</strong></p>
 
-        <p><strong>Additional Results - Coming Soon...</strong></p>
+    <h2>Paper</h2>
+    <p>Read our paper: <a href="https://arxiv.org/abs/YOUR_ARXIV_ID" target="_blank">[Link]</a></p>
 
-        <h2> Paper</h2>
-        <p>Read our paper: <a href="https://arxiv.org/abs/YOUR_ARXIV_ID" target="_blank">[Link]</a></p>
+    <h2>Code</h2>
+    <p>GitHub Repository: <a href="https://github.com/YOUR_GITHUB/HACL-2025" target="_blank">[View Code]</a></p>
 
-        <h2>Code</h2>
-        <p>GitHub Repository: <a href="https://github.com/YOUR_GITHUB/HACL-2025" target="_blank">[View Code]</a></p>
+    <h2>Architecture Overview</h2>
+    <img src="McARL.png" alt="McARL Architecture" class="arch-img"/>
 
-        <h2>Contact</h2>
-        <p>For questions, reach out to <a href="mailto:istasvarushil@gmail.com">Email</a> or <a href="https://github.com/prakharmishra27">GitHub Profile</a></p>
+    <h2>Contact</h2>
+    <p>
+      For questions, reach out to <a href="mailto:istasvarushil@gmail.com">Email</a> or 
+      <a href="https://github.com/prakharmishra27">GitHub Profile</a>
+    </p>
 
-        <p class="footer">© 2025 McARL Project - Generalizable Quadrupedal Locomotion Research</p>
-    </div>
+    <p class="footer">© 2025 McARL Project — Generalizable Quadrupedal Locomotion Research</p>
+  </div>
 
 </body>
 </html>
